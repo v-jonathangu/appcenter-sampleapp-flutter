@@ -1,1 +1,2 @@
 apply plugin: 'base'
+apply plugin: 'com.android.application'
