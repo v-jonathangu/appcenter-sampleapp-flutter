@@ -7,7 +7,7 @@ A new Flutter project using VSAC build feature.
 
 ## Android Setup
 
-- Create a gradlew directory in the root of the project (and add a dummy file for example .gitkeep).
+- Create (or copy) the gradle files (gradlew, gradlew.bat and gradle directory) to your project root.
 - Add a settings.gradle file in the root of the project like the one on this repository.
 - add a appcenter-post-close.sh script in the root of the project (project/app/).
 
