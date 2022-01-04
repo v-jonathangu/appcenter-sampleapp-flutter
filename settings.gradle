@@ -1,2 +1,2 @@
-include ':android'
-
+rootProject.name = 'MyFlutterProject'
+includeBuild ':android'

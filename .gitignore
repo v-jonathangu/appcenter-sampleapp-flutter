@@ -44,3 +44,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# ignore gradle files
+.gradle/
+# do not ignore anything else
+# gradlew
+# gradlew.bat
+# gradle/
