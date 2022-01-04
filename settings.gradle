@@ -1,5 +1,0 @@
-//include ':android'
-//include ':app'
-//rootProject.name = 'MyFlutterProject'
-rootProject.name = 'MyFlutterProject'
-include('android', 'app')
