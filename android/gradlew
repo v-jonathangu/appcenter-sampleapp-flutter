@@ -6,6 +6,11 @@
 ##
 ##############################################################################
 
+if [[ "$@" != *"-Ptarget"* ]]; then
+  echo "Not found target in arguments when call gradlew, force skip gradle."
+  exit 0
+fi
+
 # Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
 DEFAULT_JVM_OPTS=""
 
