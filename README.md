@@ -1,21 +1,14 @@
 # flutter_vsac_example
 
  - Android Build 
-[![Build status](https://build.appcenter.ms/v0.1/apps/0fe58890-14f3-4fe8-9212-cf65fb5e8d70/branches/master/badge)](https://appcenter.ms)
+[![Build status](https://build.appcenter.ms/v0.1/apps/fe65a0fd-f362-4560-b40c-a8a8f23ef7eb/branches/master/badge)](https://appcenter.ms)
 
 A new Flutter project using VSAC build feature.
 
 ## Android Setup
 
-- Create (or copy) the gradle files (gradlew, gradlew.bat and gradle directory) to your project root.
-- Add a settings.gradle file in the root of the project like the one on this repository.
 - add a appcenter-post-close.sh script in the root of the project (project/app/).
-
-> if there is an error like  
-> ##[error]Error: spawn EACCES
-> be sure to modify the permissions of the gradlew directory and the android
-> or do this on the build script
-
+- comment the gradle wrappers on the android project .gitignore (android/.gitignore)
 
 ## Getting Started
 
