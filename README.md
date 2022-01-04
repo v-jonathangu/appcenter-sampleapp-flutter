@@ -5,6 +5,18 @@
 
 A new Flutter project using VSAC build feature.
 
+## Android Setup
+
+- Create a gradlew directory in the root of the project (and add a dummy file for example .gitkeep).
+- Add a settings.gradle file in the root of the project like the one on this repository.
+- add a appcenter-post-close.sh script in the root of the project (project/app/).
+
+> if there is an error like  
+> ##[error]Error: spawn EACCES
+> be sure to modify the permissions of the gradlew directory and the android
+> or do this on the build script
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
