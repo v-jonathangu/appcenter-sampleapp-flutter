@@ -1,5 +1,8 @@
 # flutter_vsac_example
 
+ - Android Build 
+[![Build status](https://build.appcenter.ms/v0.1/apps/0fe58890-14f3-4fe8-9212-cf65fb5e8d70/branches/master/badge)](https://appcenter.ms)
+
 A new Flutter project using VSAC build feature.
 
 ## Getting Started
