@@ -7,8 +7,8 @@ A new Flutter project using VSAC build feature.
 
 ## Android Setup
 
-- add a appcenter-post-close.sh script in the root of the project (project/app/).
-- comment the gradle wrappers on the android project .gitignore (android/.gitignore)
+- add a appcenter-post-clone.sh script in the root of the project ( located in project/app/).
+- comment the gradle wrappers on the android project .gitignore (located in android/.gitignore)
 
 ## Getting Started
 
